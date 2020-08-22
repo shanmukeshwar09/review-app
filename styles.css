@@ -1,0 +1,75 @@
+*,
+::before,
+::after {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  background-color: rgba(169, 169, 169, 0.5);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.divider {
+  height: 3px;
+  width: 50%;
+  background-color: coral;
+  margin: 18px auto;
+}
+
+.container {
+  height: fit-content;
+  width: 70%;
+  background-color: white;
+  text-align: center;
+  border-radius: 18px;
+  padding: 18px;
+  max-width: 700px;
+}
+
+.name {
+  font-size: 1.8rem;
+}
+.profession {
+  font-size: 16px;
+  color: chocolate;
+}
+
+.button-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  margin: 9px;
+}
+
+.des {
+  margin: 18px auto;
+  color: rgba(73, 72, 72, 0.9);
+}
+
+img {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  padding: 0px;
+  margin: 18px auto;
+}
